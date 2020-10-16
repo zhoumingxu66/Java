@@ -98,7 +98,7 @@ pc.setCPU(cpu);
 2、方法二：利用import调用类方法  
 3、方法三：使用show（）方法  
 ##实验结果  
-！[image]（E:\360MoveData\Users\97568\Desktop\github 提交方法\新建文件夹\微信图片_20201015224803）  
+！[image]（https://github.com/zhoumingxu66/Java/blob/main/微信图片_20201015224803.jpg）  
 ##实验感想  
 本次实验学习了怎么利用类，对象和方法。如何调用不同包下的类文件。this，import show等关键字的使用方法。最重要的是空的构造方法的作用如，public class pc{}
 出现在本次实验中。
