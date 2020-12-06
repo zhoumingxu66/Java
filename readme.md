@@ -8,7 +8,7 @@ JAVA课程作业项目库
 PC调用设置cpu(Cpu C)方法，调用时实参是cpu
 PC调用setHardDisk(硬盘)方法，调用时实参是磁盘。
 PC调用Show()方法  
-！[image]（https://github.com/zhoumingxu66/Java/blob/main/微信图片_20201015224803.jpg）  
+！（https://github.com/zhoumingxu66/Java/blob/main/微信图片_20201015224803.jpg）  
 ## 实验目的  
 在本次实验中学会定义构造方法，熟练操作Java中类、方法和类。    
 
@@ -43,39 +43,14 @@ public class PC{
 	}
 ```  
 cpu和harddisk编写方法相同，cpu中定义了cpu的speed和brand两个构造方法、harddisk中定义了amount和total两个构造方法  
-```
-public class CPU {
-		private int speed;
-		public String brand;
-		
-		public CPU(int speed, String brand) {
-			this.speed = speed;
-			this.brand = brand;	
-		}
-		
-		public CPU(String brand) {
-			this.speed = 2200;
-			this.brand = brand;
-		}
-		
-		public int getSpeed() {
-			return this.speed;
-		}
-		
-		public void setSpeed(int speed) {
-			this.speed = speed;
-		}
-	
-	}
-```
-以上出示了cpu的编写代码harddisk与其基本相同。在包文件下利用import关键字调用pc类中，harddisk相同。  
+在包文件下利用import关键字调用pc类中，harddisk相同。  
 test类文件中利用import关键字调用三个类文件名  
 ``` 
 import HardDisk.HardDisk;
 import PC.PC;
 import CPU.CPU;
 ``` 
-将cpu的速度和harddisk的容量进行实例化好进行调用  
+将cpu的速度和harddisk的容量进行实例化后进行调用  
 ```
 public void setCPU(CPU c) {
 		this.c=c;
